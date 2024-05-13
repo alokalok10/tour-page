@@ -1,0 +1,29 @@
+.marquee-container {
+    background: linear-gradient(to left, rgb(21, 205, 76), #049ec0);
+    margin-top: 50px;
+    overflow: hidden;
+    
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+    height: 15%;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(86, 7, 244);
+  }
+  
+  .paused {
+    animation-play-state: paused;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

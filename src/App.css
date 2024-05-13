@@ -1,0 +1,33 @@
+p{
+  color: black;
+}
+  
+  .card-container:hover {
+    transform: scale(1.15);
+    
+  }
+  .card-container{
+    background-color: rgb(142, 189, 173);
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .alok{
+    background-color: rgb(186, 150, 150);
+   
+  }
+  .text{
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .social{
+    font-size: 50px;
+    
+  }
+  .social li{
+    margin: 15px;
+    border-radius: 50px;
+  }
+  
