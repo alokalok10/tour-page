@@ -35,11 +35,11 @@ function Contact() {
         <Col>
           <h3 style={{color: 'chocolate'}}>Connect with us:</h3>
           <p>Follow us on social media for updates and more:</p>
-          <ul className="list-inline social">
+{/*           <ul className="list-inline social">
             <li className="list-inline-item"><a href="www.facebook.com"><FaFacebook /></a></li>
             <li className="list-inline-item"><a href="www.twitter.com"><FaTwitter /></a></li>
             <li className="list-inline-item"><a href="www.instagram.com"><FaInstagram /></a></li>
-          </ul>
+          </ul> */}
         </Col>
       </Row>
     </Container>
