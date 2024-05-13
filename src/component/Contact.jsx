@@ -3,7 +3,7 @@
 import React from 'react';
 import '../App.css'
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+// import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 function Contact() {
   return (
